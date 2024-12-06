@@ -9,7 +9,6 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 
@@ -19,55 +18,184 @@
         <i class='bx bx-menu' id="menu-icon"></i>
 
         <nav>
-            <a href="#" class="active">Home</a>
-            <a href="#" >Services</a>
-            <a href="#">Resume</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="index.html" class="active">Home</a>
+            <a href="services.html" >Services</a>
+            <a href="resume.html">Resume</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
         </nav>
      </header>
-
-     <script src="script.js"></script>
 
      <section class="resume">
         <div class="resume-container">
             <div class="resume-box">
                 <h2>Why Hire Me?</h2>
                 <p class="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium eveniet quae a, temporibus quaerat voluptates vero dolor molestiae delectus molestias. Nemo neque facere harum, fugiat distinctio rem ex mollitia quos!</p>
-                <button class="resume-btn active">Experience</button>
-                <button class="resume-btn">Education</button>
-                <button class="resume-btn">Skills</button>
-                <button class="resume-btn">About Me</button>
+                <button class="resume-btn" data-detail="experience">Experience</button>
+                <button class="resume-btn" data-detail="education">Education</button>
+                <button class="resume-btn" data-detail="skills">Skills</button>
+                <button class="resume-btn" data-detail="about">About Me</button>
             </div>
             <div class="resume-box">
                <div class="resume-detail experience active">
                 <h2 class="nikunj">My <span>Experience</span></h2>
                 <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam sunt ratione ad, quam et, fugiat deleniti fugit quibusdam officia nihil voluptates. Deserunt fugiat debitis ut sunt facilis nam pariatur odio.</p>
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <p class="year">2023-Present</p>
+                        <h3>Frontend Developer</h3>
+                        <p class="company">Abc Corp.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusantium cum, quas iste sit delectus nulla at saepe in corporis.</p>
+
+                    </div>
+
+                    <div class="resume-item">
+                        <p class="year">2022-2023</p>
+                        <h3>Full Stack Developer Developer</h3>
+                        <p class="company">Google</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusantium cum, quas iste sit delectus nulla at saepe in corporis.</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <p class="year">2021-2022</p>
+                        <h3>Backend Developer</h3>
+                        <p class="company">YouTube</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusantium cum, quas iste sit delectus nulla at saepe in corporis.</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <p class="year">2019-2020</p>
+                        <h3>UI/UX Designer</h3>
+                        <p class="company">Abc Inc.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor accusantium cum, quas iste sit delectus nulla at saepe in corporis.</p>
+                    </div>
+
+                </div>
+
                </div>
 
-               <div class="resume-detail education ">
+               <div class="resume-detail education">
                 <h2 class="nikunj">My <span>Education</span></h2>
                 <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam sunt ratione ad, quam et, fugiat deleniti fugit quibusdam officia nihil voluptates. Deserunt fugiat debitis ut sunt facilis nam pariatur odio.</p>
-               </div>
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <p class="year">2024</p>
+                        <h3>Programming Course</h3>
+                        <p class="company">Online Course</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit vitae praesentium sit repellendus inventore ipsam laudantium!</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <p class="year">2022-2023</p>
+                        <h3>Development BootCamp</h3>
+                        <p class="company">Online Course Platform</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit vitae praesentium sit repellendus inventore ipsam laudantium!</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <p class="year">2020</p>
+                        <h3>Certified Web Development</h3>
+                        <p class="company">Online Course</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit vitae praesentium sit repellendus inventore ipsam laudantium!</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <p class="year">2017-2018</p>
+                        <h3>Doctor of Engineering</h3>
+                        <p class="company">Codehal University</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit vitae praesentium sit repellendus inventore ipsam laudantium!</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <p class="year">2015-2017</p>
+                        <h3>Master of Computer Science</h3>
+                        <p class="company">Codehal University</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit vitae praesentium sit repellendus inventore ipsam laudantium!</p>
+                    </div>
+
+                    <div class="resume-item">
+                        <p class="year">2012-2015</p>
+                        <h3>Bachelor of Data Science</h3>
+                        <p class="company">Codehal University</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit vitae praesentium sit repellendus inventore ipsam laudantium!</p>
+                    </div>
+
+                </div>
+               
+            
+            </div>
 
                <div class="resume-detail skills">
                 <h2 class="nikunj">My <span>Skills</span></h2>
                 <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam sunt ratione ad, quam et, fugiat deleniti fugit quibusdam officia nihil voluptates. Deserunt fugiat debitis ut sunt facilis nam pariatur odio.</p>
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <span>HTML5</span>
+                        <i class='bx bxl-html5'></i>
+                    </div>
+                    <div class="resume-item">
+                        <span>CSS3</span>
+                        <i class='bx bxl-css3'></i>
+                    </div>
+                    <div class="resume-item">
+                        <span>JavaScript</span>
+                        <i class='bx bxl-javascript' ></i>
+                    </div>
+                    <div class="resume-item">
+                        <span>React.js</span>
+                        <i class='bx bxl-react'></i>
+                    </div>
+                    <div class="resume-item">
+                        <span>Node.js</span>
+                        <i class='bx bxl-nodejs' ></i>
+                    </div>
+                    <div class="resume-item">
+                        <span>Java</span>
+                        <i class='bx bxl-java' ></i>
+                    </div>
+                </div>
                </div>
 
                <div class="resume-detail about">
                 <h2 class="nikunj">About <span>Me</span></h2>
                 <p class="desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam sunt ratione ad, quam et, fugiat deleniti fugit quibusdam officia nihil voluptates. Deserunt fugiat debitis ut sunt facilis nam pariatur odio.</p>
+                <div class="resume-list">
+                    <div class="resume-item">
+                        <p>Name <span>Aastha Ratthi</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Gender <span>Female</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Age <span>20</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Status <span>Unmarried</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>City <span>Indore</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Nationality <span>Indian</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Phone <span>(+91) 9425904630</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Email <span>aastharatthi1929@gmail.com</span></p>
+                    </div>
+                    <div class="resume-item">
+                        <p>Languages <span>ENglish, Hindi</span></p>
+                    </div>
+                    
+                </div>
                </div>
-
- 
 
             </div>
             </div>
     </section>
 
     <script src="script.js"></script>
-    
-    
+
 </body>
 </html>
