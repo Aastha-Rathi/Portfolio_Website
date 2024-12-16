@@ -20,3 +20,7 @@ resumeBtns.forEach((btn) => {
         document.querySelector(`.resume-detail.${detailId}`).classList.add('active');
     });
 });
+
+const arrowRight = document.querySelector('.portfolio-box .navigation .arrow-right');
+const arrowLeft = document.querySelector('.portfolio-box .navigation .arrow-left');
+
